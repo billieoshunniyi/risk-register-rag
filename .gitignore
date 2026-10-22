@@ -1,0 +1,17 @@
+#environment variables and secrets
+.env
+.env.*
+!.env.example
+
+#yython cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+#macOS files
+.DS_Store
+
+#generated Chroma databases
+chroma_db/
+chroma_db_*/
